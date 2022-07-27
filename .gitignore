@@ -1,3 +1,7 @@
+* text=auto
+*.java text eol=lf
+*.png binary
+*.jpg binary
 .vscode
 .idea
 __pycache__
