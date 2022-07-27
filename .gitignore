@@ -1,0 +1,11 @@
+.vscode
+.idea
+__pycache__
+.data/
+.temp/
+.gitignore/
+.git/
+*.log
+temp/
+
+

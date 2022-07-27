@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-import base64from configs.config import logdef img_to_base64(img_path):    """把图片转为base64"""    file = open(img_path, 'rb')    img_base64 = base64.b64encode(file.read())    img_base64 = img_base64.decode('utf-8')    log.info('图片转码base64成功')    return img_base64
